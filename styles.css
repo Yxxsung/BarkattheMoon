@@ -1,7 +1,39 @@
 nav{
     text-align: center;
     color: #712487;
-    font-size: 1.5em;
+    font-size: 22;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
+    text-align: center;
+}
+
+nav a:link {
+    color:#5C7FA3;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ba63a1;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #8163ba;
+    text-decoration: none;
+}
+
+nav ul {
+    marker: none;
+    padding-left: 1em;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
+}
+
+nav li{
+    padding-top: 0.5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-bottom: solid 1em;
 }
