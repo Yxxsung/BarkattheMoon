@@ -1,7 +1,7 @@
 nav{
     text-align: center;
     color: #712487;
-    font-size: 22;
+    font-size: 28;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
     text-align: center;
@@ -41,5 +41,5 @@ h1{
     text-align: center;
     padding-top: .5em;
     font-size: 3em;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.1em;
 }
