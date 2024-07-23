@@ -32,8 +32,14 @@ nav ul {
 
 nav li{
     padding-top: 0.5em;
-    padding-bottom: .5em;
+    padding-bottom: 0.5em;
     padding-left: 1em;
     padding-right: 1em;
-    border-bottom: solid 1em;
+}
+
+h1{
+    text-align: center;
+    padding-top: .5em;
+    font-size: 3em;
+    letter-spacing: 0.25em;
 }
