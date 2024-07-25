@@ -1,9 +1,9 @@
 nav{
     text-align: center;
     color: #712487;
-    font-size: 28;
+    font-size: 35;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: underline;
+    text-decoration: underline, bold;
     text-align: center;
 }
 
