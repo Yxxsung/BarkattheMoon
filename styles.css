@@ -63,3 +63,7 @@ p{
     margin-right: auto;
     width: 50%;
 }
+
+form{
+    padding-left: 1em;
+}
