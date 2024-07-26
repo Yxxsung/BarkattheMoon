@@ -68,13 +68,13 @@ p{
     position: absolute;
     top: 100%;
     left: 50%;
-    transform: translate(-200%, 100%);
+    transform: translate(-50%, 100%);
 }
 
 /*added this last to try and move the contact form*/
 form{
     width: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, 100%);
 }
 
 li{
