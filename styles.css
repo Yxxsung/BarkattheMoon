@@ -78,6 +78,10 @@ form{
 li{
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /*should center the slides*/
