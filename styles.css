@@ -68,7 +68,7 @@ p{
     position: absolute;
     top: 100%;
     left: 50%;
-    transform: translate(-150%, -50%);
+    transform: translate(-100%, -50%);
 }
 
 form{
