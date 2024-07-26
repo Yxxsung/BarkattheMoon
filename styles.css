@@ -8,7 +8,7 @@ body{
 
 nav{
     text-align: center;
-    color: #8fd1e6;
+    color: #111516;
     font-size: 65;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
@@ -16,17 +16,17 @@ nav{
 }
 
 nav a:link {
-    color:#5C7FA3;
+    color:#24619e;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #ba63a1;
+    color: #24619e;
     text-decoration: none;
 }
 
 nav a:visited {
-    color: #8163ba;
+    color: #548fc7;
     text-decoration: none;
 }
 
@@ -50,6 +50,7 @@ h1{
     padding-top: .5em;
     font-size: 3em;
     letter-spacing: 0.1em;
+    color: #111516;
 }
 
 h2{
