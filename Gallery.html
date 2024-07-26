@@ -6,30 +6,74 @@
 
 <!--The above two lines go into every html file. they declare the language and the programming language-->
 
-<head>
+    <head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
 
-    <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
 
-    <!--this is the title that is in the tab NOT THE SITE TITLE-->
-    <title>Bark at the Moon Dog Grooming::Gallery</title>
+        <!--this is the title that is in the tab NOT THE SITE TITLE-->
+        <title>Bark at the Moon Dog Grooming::Gallery</title>
 
-    <h1>
-        <a href="index.html">Bark at the Moon Dog Grooming</a>
-    </h1>
+        <h1>
+            <a href="index.html">Bark at the Moon Dog Grooming</a>
+        </h1>
 
-<nav>
-
-
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Services.html">Services</a></li>
-        <li><a href="Gallery.html">Gallery</a></li>
-        <li><a href="Contact.html">Contact Us</a></li>
-        <li><a href="Aboutus.html">About Us</a></li>
-        <li><a href="Location.html">Location</a></li>
-    </ul>
+        <nav>
 
 
-</nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+                <li><a href="Aboutus.html">About Us</a></li>
+                <li><a href="Location.html">Location</a></li>
+            </ul>
+
+
+        </nav>
+    </head>
+
+    <main>
+
+        <!--The next 9 lines are the images for the slideshow-->
+        <img class="mySlides" alt="slides1" src="slides1.jpg">
+        <img class="mySlides" alt="slides2" src="slides2.jpg">
+        <img class="mySlides" alt="slides3" src="slides3.jpg">
+        <img class="mySlides" alt="slides4" src="slides4.jpg">
+        <img class="mySlides" alt="slides5" src="slides5.jpg">
+        <img class="mySlides" alt="slides6" src="slides6.jpg">
+        <img class="mySlides" alt="slides7" src="slides7.jpg">
+        <img class="mySlides" alt="slides8" src="slides8.jpg">
+        <img class="mySlides" alt="slides9" src="slides9.jpg">
+
+        <!--These next two lines are the buttons to click through the slideshow-->
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+
+        <!--This is the javascript to make the slideshow work-->
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+            showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length} ;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex-1].style.display = "block";
+            }
+        </script>
+
+    </main>
+    
+</html>
