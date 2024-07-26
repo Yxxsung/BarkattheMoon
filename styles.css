@@ -91,12 +91,5 @@ li{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-
-.w3-buttonw3-display-left{
-    size: 45px;
-}
-
-.w3-buttonw3-display-right{
-    size: 45px;
+    height: 300px;
 }
