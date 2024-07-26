@@ -71,6 +71,7 @@ p{
     transform: translate(-200%, 100%);
 }
 
+/*added this last to try and move the contact form*/
 form{
     width: 50%;
     transform: translate(-200%, 100%);
