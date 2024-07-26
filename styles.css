@@ -73,8 +73,11 @@ p{
     /*width: 50%;*/
 }
 
-.table{
-    translate: (100%, -10%);
+table{
+    align-self: center;
+    border: #3399CC 1px;
+    width: 90%;
+    border-collapse: collapse;
 }
 
 .servicesList{
