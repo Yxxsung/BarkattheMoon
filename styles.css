@@ -16,17 +16,17 @@ nav{
 }
 
 nav a:link {
-    color:#24619e;
+    color:#8dc6ff;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #24619e;
+    color: #abc1d6;
     text-decoration: none;
 }
 
 nav a:visited {
-    color: #194975;
+    color: #66a9e7;
     text-decoration: none;
 }
 
