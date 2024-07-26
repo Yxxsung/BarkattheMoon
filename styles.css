@@ -74,3 +74,8 @@ p{
 form{
     width: 50%;
 }
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
