@@ -1,7 +1,7 @@
 nav{
     text-align: center;
     color: #712487;
-    font-size: 55;
+    font-size: 65;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
     text-align: center;
@@ -77,5 +77,5 @@ form{
 
 li{
     font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
+    font-size: 22px;
 }
