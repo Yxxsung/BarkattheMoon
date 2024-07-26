@@ -72,6 +72,10 @@ p{
     /*width: 50%;*/
 }
 
+.servicesList{
+    translate: (50%, 0%);
+}
+
 .form-container{
     position: absolute;
     top: 100%;
