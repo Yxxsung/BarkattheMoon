@@ -73,6 +73,10 @@ p{
     /*width: 50%;*/
 }
 
+.table{
+    translate: (100%, -10%);
+}
+
 .servicesList{
     translate: (50%, 0%);
 }
