@@ -1,6 +1,14 @@
+body{
+    background-color: #995bc2;
+    color: #181717;
+    font-family: Verdana;
+    background:linear-gradient(#aa69c9,#e2b3f5);
+    margin: 0;
+}
+
 nav{
     text-align: center;
-    color: #712487;
+    color: #8fd1e6;
     font-size: 65;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
@@ -113,4 +121,8 @@ li{
 
 .button{
     width: 100px;
+}
+
+.text{
+    text-align: left;
 }
