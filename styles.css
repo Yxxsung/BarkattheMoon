@@ -25,7 +25,7 @@ desktop-id{
 nav{
     text-align: center;
     color: #111516;
-    font-size: 65;
+    font-size: 65px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
     text-align: center;
@@ -108,7 +108,7 @@ th{
 }
 
 .servicesList{
-    translate: (50%, 0%);
+    translate: (50%, 10%);
 }
 
 .form-container{
@@ -126,7 +126,7 @@ form{
     width: 60%;
     display: grid;
     gap: 1em;
-    columns: 2 width(10em, 1fr);
+    columns: 2, width(10em, 1fr);
 }
 
 li{
@@ -148,7 +148,7 @@ li{
 }
 
 .w3-buttonw3-display-left{
-    size: 45px;
+    resize: 45px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -156,7 +156,7 @@ li{
 }
 
 .w3-buttonw3-display-right{
-    size: 45px;
+    resize: 45px;
     display: block;
     margin-left: auto;
     margin-right: auto;
