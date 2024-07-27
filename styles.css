@@ -118,6 +118,11 @@ th{
     /*transform: translate(-50%, -100%); blocked this out to see how the below code changes it*/
 }
 
+/* Logo styles */
+.logo {
+    max-width: 100px;
+  }
+
 /*added this last to try and move the contact form*/
 form{
     display: flex;
