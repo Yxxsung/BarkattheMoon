@@ -92,7 +92,7 @@ p{
 table{
     align-self: center;
     border: #3399CC 1px;
-    width: 90%;
+    width: 70%;
     border-collapse: collapse;
 }
 
@@ -178,7 +178,7 @@ li{
 }
 
 .text{
-    text-align: left;
+    text-align: center;
 }
 
 footer{
