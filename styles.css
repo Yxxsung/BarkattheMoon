@@ -115,7 +115,7 @@ th{
     position: absolute;
     top: 100%;
     left: 50%;
-    /*transform: translate(-50%, -100%); blocked this out to see how the below code changes it*/
+    transform: translate(-10%, 20%); blocked this out to see how the below code changes it
 }
 
 /* Logo styles */
